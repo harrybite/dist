@@ -1,7 +1,7 @@
 {
     "name": "web3.js.eth",
     "description": "Ethereum JavaScript API wrapper repository",
-    "version": "4.0.4",
+    "version": "4.0.7",
     "engines": {
         "node": ">=11.0.0"
     },
