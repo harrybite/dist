@@ -2,9 +2,7 @@
     "name": "web3.js.eth",
     "description": "Ethereum JavaScript API wrapper repository",
     "version": "4.0.9",
-    "engines": {
-        "node": ">=11.0.0"
-    },
+
     "main": "./packages/web3/src/index.js",
     "bundlesize": [
         {
@@ -17,7 +15,6 @@
         "version": "npm run build",
         "postinstall": "npm run bootstrap",
         "build": "npm run bootstrap && lerna run compile --skip-nx-cache && webpack && cp -r ./dist ./packages/web3",
-        "publish": "lerna publish",
         "bootstrap": "lerna bootstrap --hoist",
         "lint": "jshint *.js packages",
         "test": "mocha -R spec --require ts-node/register --grep E2E --invert",
