@@ -1,0 +1,16 @@
+{
+  "version": "1.10.6",
+  "command": {
+    "init": {
+      "exact": true
+    },
+    "publish": {
+      "exact": true,
+      "skipGit": true
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "useNx": false
+}
